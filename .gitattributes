@@ -1,0 +1,12 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Specify that certain file types should always have LF line endings
+*.sh text eol=lf
+*.md text eol=lf
+
+# Binary files
+*.jpg binary
+*.png binary
+*.gif binary
+*.zip binary
